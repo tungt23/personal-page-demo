@@ -5,3 +5,57 @@ body {
     font-size: 18px;
     font-weight: 300;
 }
+
+header, section, footer {
+	padding: 1em;
+}
+
+header {
+	background-image: url(../img/background.jpg);
+	background-size: cover;
+	color: #FFFFFF;
+}
+
+.tagline {
+	color:; #BBB;
+}
+
+header a:link,
+header a:visited {
+	color: #CCC;
+	text-decoration: none;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+header a:hover,
+header a:focus {
+	text-decoration: underline;
+	color: #FFF;
+	background-color: #CC0000;
+}
+
+#about, #projects {
+	background-color: #F1D234;
+}
+
+#education, #contact {
+	background-color: #A66106;
+}
+
+#about img {
+	max-height: 400px;
+	float: left;
+	margin-right: 1em;
+	opacity: 1;
+}
+
+#about img:hover {
+	opacity: 0.7;
+}
+
+#education {
+	clear: both;
+}
